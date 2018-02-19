@@ -66,18 +66,23 @@
 		}
 		
 	}
-	
-	$objekt = new segrt ($_GET['ime'], $_GET['prezime']);
-	
-	
-	echo '<pre>';
-	var_dump($objekt);
-	echo '</pre>';
+    $naslov = 'anonimus';
+	if(isset($_GET['ime']) && isset($_GET['prezime'])){
+        $objekt = new segrt ($_GET['ime'], $_GET['prezime']);
+        $naslov = $objekt->imePrez();
+        echo '<pre>';
+        var_dump($objekt);
+        echo '</pre>';
+    }
+
+
+
+
 	
 	
 	
 	?>
-	    <h1 id = "naslov" align="center"><?php echo 'Hello '. $objekt->imePrez();   ?> </h1>
+	    <h1 id = "naslov" align="center"><?php echo 'Hello '. $naslov;   ?> </h1>
 
 
 	<div class="container-fluid" style="color:#0FC0FF">
