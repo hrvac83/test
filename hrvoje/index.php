@@ -77,7 +77,7 @@
 
 
 
-
+//ovaj dio koda je novi koji ces vidjet sad u diff file
 	
 	
 	
