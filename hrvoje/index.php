@@ -112,10 +112,10 @@
 	
 	<div class="container">
         <div class="row">
-            <div class="col-md-4"><p>Box 1</p></div>
-            <div class="col-md-4"><p>Box 2</p></div>
-            <div class="col-md-4"><p>Box 3</p></div>
-            <div class="col-md-4"><p>Box 4</p></div>
+            <div class="col-md-3"><p>Box 1</p></div>
+            <div class="col-md-3"><p>Box 2</p></div>
+            <div class="col-md-3"><p>Box 3</p></div>
+            <div class="col-md-3"><p>Box 4</p></div>
             <div class="col-md-4"><p>Box 5</p></div>
             <div class="col-md-4"><p>Box 6</p></div>
             <div class="col-md-4"><p>Box 7</p></div>
