@@ -29,7 +29,7 @@ Curabitur id nulla auctor, mollis ipsum at, feugiat mauris. Morbi euismod in fel
 Test list:
 
 * **Test 1**
-  *  _ Sed nec augue sed diam viverra facilisis._
+  *  _Sed nec augue sed diam viverra facilisis._
   
 * **Test 2**
   * Vivamus hendrerit semper dapibus. Maecenas iaculis luctus ipsum et gravida. Etiam egestas turpis eget viverra aliquet. 
